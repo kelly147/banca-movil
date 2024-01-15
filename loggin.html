@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html leng = 'es'>
+<head>
+    <title>Inicio de Sección</title>
+    <style>
+        .principal{
+            width: 1500px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 44% 44%;
+        }
+        
+        div{
+            margin: 3%;
+            display:inline-block;
+            height: 600px;
+            
+        }
+        
+        .formulario{
+            margin:  80px 135px;
+            width:350px;
+            height: 450px;
+            display:inline-block;
+            background-color:azure;
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;
+        }
+        .from {
+            margin:auto;
+            width: 200px;
+        }
+        a{
+            text-align: right;
+            color:cornflowerblue;
+        }
+        button{
+            display:inline-block;
+            display: block;
+            margin-right:auto;
+            margin-left:auto;
+        }
+        h1{
+            color:dimgray;
+        }
+        
+    </style>
+
+
+</head>
+
+<body>
+    <!--DIV PRINCIPAL-->
+    <div class="principal">
+        <!--BLOQUE 1-->
+        <div style="background-color:cadetblue;">
+            <!--BLOQUE FORMULARIO-->
+            <div class="formulario"> 
+                <h1 style="text-align:center"> Banca movil </h1>
+                <h1 style="text-align:center">Sección</h1>
+                <form class="from" action="/Formulario" method="post">
+                
+                    <label for="Usuario">Usuario: </label><br>
+                    <input type="text" maxlength="12" id="Usuario" name="" placeholder="Ingrese su usuario"/>
+                    <a href="file:///C:/Users/Usuario/Html_css_Projects/Banca-Movil/Recuperar-Usuario.html"><small>¿Olvido su usuario?</small></a><br><br>
+                    <label for="Contraseña">Contrase&ntilde;a: </label><br>
+                    <input type="password" id="Contaseña" name="" placeholder="Ingrese su contraseña" maxlength="12"/>
+                    <a href="file:///C:/Users/Usuario/Html_css_Projects/Banca-Movil/Recuperar-Contrase%C3%B1a.html"><small>¿Olvido su contraseña?</small></a><br><br>
+                    <button type="submit">Ingresar</button>
+                
+                </form>
+            </div>
+            
+        </div>
+        <!--BLOQUE 2-->
+        <div style="background-size: cover;">
+            <a href="file:///C:/Users/Usuario/Html_css_Projects/Banca-Movil/Registro.html">Registrarse</a><br>
+            <img src="santander-economia-02.gif" width="500" height="500">
+
+        </div>
+    </div>
+</body>
+
+</html>

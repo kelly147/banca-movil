@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html leng= 'es'>
+    <head>
+        <title>Registro</title>
+        <style>
+            h1{
+                text-align:center
+            }
+            div{
+                margin: auto;
+                width: 700px;
+                height: 1200px;
+                background-color:azure;
+            }
+            .from {
+                margin:auto;
+                width: 380px;
+            }
+            button{
+                align-items: center;
+                
+            }
+
+        </style>
+    </head>
+    <body style="background-color: cadetblue;">
+        <div><br>
+            <h1 style="color: dimgray;">Registro</h1>
+            <form class = "from" action="/formulario" method ="post">
+                <br>
+                <hr><br>
+                <label>Información Personal:</label><br><br>
+                <label for="nombres">Nombres completos:<label><br>
+                <input type="text" id="nombre" name="" placeholder="Nombres y Apellidos" /><br><br >
+                <label for="Fecha-nac">Fecha de Nacimientos:</label><br>
+                <input type="date" id="Fecha-nac" name="" min="1909-12-31"/><br><br>
+                <label for="sexo">Genero:</label>
+                <input type="radio" id="femenino"/>
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="masculino" name="" />
+                <label for="masculino">Masculino</label><br><br>
+                <label for="Nacionalidad">Nacionalidad:</label><br>
+                <input type="texto" id="Nacionalidad"><br><br>
+                
+                <hr><br>
+                <label>Información de contacto:</label><br><br>
+                <label for="correo">Correo Electronico:</label><br>
+                <input type="email" id="correo" name="email" placeholder="ejemplo@gmail.com" /><br><br>
+                <label for="Telefono">Telefono:</label><br>
+                <input type="number" id="telefono" name="" placeholder="" /><br><br>
+                
+                <hr><br>
+                <label>Información de Indentificación:</label><br><br>
+                <label for="Documento">Tipo de Documento</label><br>
+                <input type="" id="Documento"><br><br>
+                <label for="Num-cedula">Numero de cedula</label><br>
+                <input type="number" id="Num-cedula"><br><br>
+                <label for="Fecha-Exp">Fecha de Expedición</label><br>
+                <input type="number" id="Fecha-Exp"><br><br>
+
+                <hr><br>
+                <label>Seguridad y Acceso</label><br><br>
+                <label for="usuario">Usuario:</label><br>
+                <input type="text" id="usuario" name="" placeholder=" Nombre de Usuario" /><br><br>
+                <label for="contraseña">Contrase&ntilde;a:</label><br>
+                <input type="password" id="usuario" name="" placeholder=" Contrase&ntilde;a" /><br><br>
+                <label for="confirmarpass">Confirmar Contrase&ntilde;a:</label><br>
+                <input type="password" id="confirmarpass" name="" placeholder=" Contrase&ntilde;a" /><br><br>
+                <br>
+                
+                <input type="submit">
+                <input type="reset">
+                
+                
+        </div>
+    </body>
+</html>
